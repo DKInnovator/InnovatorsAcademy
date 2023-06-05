@@ -1,0 +1,18 @@
+
+ul li a{
+    margin-right: 20px;
+}
+
+.dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
+display: block;
+margin-top: .125em;
+margin-left: .100em;
+}
+
+@media screen and (min-width:769px){
+    .dropend:hover  .dropdown-menu{
+        position: absolute;
+        top: 0;
+       left: 100%;
+    }
+}
