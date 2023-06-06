@@ -1,12 +1,27 @@
 
+*{
+    font-family: "Jost", sans-serif;
+}
+ul li{
+    font-weight: 800;
+}
 ul li a{
-    margin-right: 20px;
+    margin-right: 58px;
+}
+.nav-link:hover {
+    color: blue;
+}
+.navbar-brand{
+    margin-left: 84px;
 }
 
 .dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
 display: block;
 margin-top: .125em;
 margin-left: .100em;
+}
+.social-part{
+    margin-left: 160px;
 }
 
 @media screen and (min-width:769px){
@@ -15,4 +30,23 @@ margin-left: .100em;
         top: 0;
        left: 100%;
     }
+  
+}
+@media screen and (max-width:600px) and (min-width:300px){
+    .social-part {
+        display: none;
+        margin-left: 0px;
+    }
+    .navbar-brand{
+        margin-left: 10px;
+    }
+   
+}
+.navbar-toggler{
+    border: none;
+    color: rgb(18, 18, 143);
+
+}
+.navbar-toggler-icon  {
+    color: blue;
 }
