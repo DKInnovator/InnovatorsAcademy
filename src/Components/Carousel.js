@@ -20,25 +20,20 @@ const Carousel = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active" >
-        <img src="bgimage1.jpg"  alt="First slider" className='d-block w-100' />
+        <img src="bgimg1.jpg"  alt="First slider" className='d-block w-100' data-bs-interval="4000" />
         
       </div>
       <div className="carousel-item" data-bs-interval="4000">
-        <img src="/bgimage2.gif"  alt="Second slider "  className='d-block w-100' />
+        <img src="/bgimg2.jpg"  alt="Second slider "  className='d-block w-100' data-bs-interval="4000" />
         
       </div>
       <div className="carousel-item" data-bs-interval="4000">
-        <img src="/bgimage3.jpg"  alt="Third slider" className='d-block w-100' /> 
+        <img src="/bgimg3.jpg"  alt="Third slider" className='d-block w-100' data-bs-interval="4000"/> 
        
       </div>
     </div>
    
   </div> 
-
-     
-
-   
-
     </>
   )
 }

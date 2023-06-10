@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-
 import "./header.css";
 const Header = () => {
                                                                                                                                                                                             
@@ -14,13 +13,13 @@ const Header = () => {
       <span className="navbar-toggler-icon "></span>
     </button>
     <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-      <ul className="navbar-nav d-flex">
+      <ul className="navbar-nav d-flex  headerul">
         <li className="nav-item">
         <Link to="/" className="nav-link " aria-current="page" >Home</Link>
         </li>
         <li className="nav-item dropdown">
         <Link to="/" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Courses</Link>
-           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+           <ul className="dropdown-menu  headerul" aria-labelledby="navbarDropdown">
         <li>  <Link to="#" className="dropdown-item" >IOT(Internet Of Things)</Link></li> 
           <li>  <Link to="#" className="dropdown-item" >Embeded System</Link></li>
             <li> <Link to="#" className="dropdown-item" >PCB Designs</Link></li> 
@@ -29,7 +28,7 @@ const Header = () => {
              <li> <Link to="#" className="dropdown-item" >Electric Vehicle</Link></li>
              <li className="nav-item dropend">
         <Link to="/" className="nav-link dropdown-toggle" id="navbarDropdownagain" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Basic Computer Skills</Link>
-           <ul className="dropdown-menu" aria-labelledby="navbarDropdownagain">
+           <ul className="dropdown-menu headerul" aria-labelledby="navbarDropdownagain">
         <li>  <Link to="#" className="dropdown-item" >MS Excel</Link></li> 
           <li>  <Link to="#" className="dropdown-item" >MS Word</Link></li>
             <li> <Link to="#" className="dropdown-item" >MS Powerpoint</Link></li> 

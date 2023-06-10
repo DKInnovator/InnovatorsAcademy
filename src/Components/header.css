@@ -2,19 +2,19 @@
 *{
     font-family: "Jost", sans-serif;
 }
-ul li{
+.headerul li{
     font-weight: 800;
 }
-ul li a{
-    margin-right: 58px;
+.headerul li a{
+    margin-right: 50px;
 }
 .nav-link:hover {
     color: blue;
 }
-.navbar-brand{
-    margin-left: 84px;
-}
 
+.navbar-brand{
+    margin-left: 65px;
+}
 .dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
 display: block;
 margin-top: .125em;
@@ -22,6 +22,7 @@ margin-left: .100em;
 }
 .social-part{
     margin-left: 160px;
+    display: flex;
 }
 
 @media screen and (min-width:769px){
@@ -30,7 +31,14 @@ margin-left: .100em;
         top: 0;
        left: 100%;
     }
+    
   
+}
+@media screen and (max-width:1300px) and (min-width:986px){
+    .social-part {
+       
+        margin-left: 10px;
+    }
 }
 @media screen and (max-width:600px) and (min-width:300px){
     .social-part {
@@ -50,3 +58,7 @@ margin-left: .100em;
 .navbar-toggler-icon  {
     color: blue;
 }
+
+
+
+ 
